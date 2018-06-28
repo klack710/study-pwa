@@ -1,0 +1,16 @@
+{
+    "name":"PWA-test",
+    "short_name":"PWA-short_name",
+    "icons": [
+        {
+            "src":"images/icon.png",
+            "type":"image/png",
+            "size":"192x192"
+        }
+    ],
+    "start_url":"/?query=soeme",
+    "display":"standalone",
+    "orientation":"portrait",
+    "theme_color":"#ffff00",
+    "background_color":"0000ff"
+}
