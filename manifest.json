@@ -33,7 +33,7 @@
             "type": "image/png"
         }
     ],
-    "start_url":"/?query=soeme",
+    "start_url":"study-pwa/?query=soeme",
     "display":"standalone",
     "orientation":"portrait",
     "theme_color":"#ffff00",
