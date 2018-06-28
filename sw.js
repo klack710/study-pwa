@@ -2,7 +2,8 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
 ];
-self.addEventListener('fetch', function(event) {
+
+self.addEventListener('install', function(event) {
   // インストール処理
   event.waitUntil(
     caches.open(CACHE_NAME)
